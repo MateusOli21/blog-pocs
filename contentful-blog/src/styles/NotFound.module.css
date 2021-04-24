@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+
+.container h1 {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.container span {
+  color: #424242;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #575757;
+  cursor: pointer;
+  transition: color 0.2s ease-in;
+}
+
+.container span:hover {
+  color: #757575;
+  border-bottom: 1px solid #8a8a8a;
+}

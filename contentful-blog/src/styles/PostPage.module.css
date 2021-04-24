@@ -1,0 +1,67 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 54px 20px 64px;
+}
+
+.content {
+  width: 100%;
+  max-width: 1024px;
+}
+
+.banner {
+  width: 100%;
+  max-height: 360px;
+  border-radius: 5px;
+  overflow-y: hidden;
+}
+
+.title {
+  margin: 36px 0 24px;
+  font-size: 48px;
+}
+
+.infos {
+  margin-bottom: 44px;
+}
+
+.infos p {
+  font-size: 14px;
+}
+
+.tags {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tag {
+  border: 1px solid #383838;
+  padding: 8px 16px;
+  margin-right: 16px;
+  border-radius: 5px;
+}
+
+.tag span {
+  font-size: 14px;
+}
+
+.textH4 {
+  font-size: 24px;
+  margin: 32px 0 16px;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 12px;
+}
+
+.blockquote {
+  line-height: 150%;
+  padding-left: 12px;
+  margin: 24px 0 24px 16px;
+  border-left: 2px solid #383838;
+  font-size: 16px;
+  font-style: italic;
+}

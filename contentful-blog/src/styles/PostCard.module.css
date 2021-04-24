@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px 32px;
+  padding: 20px 16px;
+  border-radius: 5px;
+  background: #fefefe;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  max-height: 156px;
+  overflow-y: hidden;
+  border-radius: 5px;
+}
+
+.title {
+  font-weight: 700;
+  margin: 16px 0 12px;
+}
+
+.readTime {
+  color: #424242;
+  font-size: 14px;
+}
+
+.buttonCard {
+  justify-self: flex-end;
+  align-self: flex-end;
+  margin-top: 32px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #a8a8a8;
+  cursor: pointer;
+}
+
+.buttonCard:hover {
+  color: #242424;
+}
